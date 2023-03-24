@@ -44,5 +44,5 @@ jobs:
             --insecure-policy \
             copy \
             oci-archive:"charmed-mysql_${version}_amd64.rock" \
-            docker-daemon:"dataplatformoci/charmed-mysql:${version}"
+            docker-daemon:"ghcr.io/taurus-forever/charmed-mysql:${version}"
           docker push "ghcr.io/taurus-forever/charmed-mysql:${version}"
